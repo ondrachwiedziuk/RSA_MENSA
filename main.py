@@ -1,5 +1,10 @@
 from interface import Person, Eve, Bob, full_clear
 from time import sleep
+import os
+
+def clear():
+    os.system('clear')
+clear()
 
 full_clear()
 print('Bob a Alice si chtějí vyměnit zprávu')
